@@ -40,11 +40,38 @@
        url('../fonts/Roya.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
 }
 @font-face {
-  font-family: 'Roya';
-  src: url('../fonts/ddd.otf?#'),  /* IE6–8 */
-       url('../fonts/ddd.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+  font-family: 'fff';
+  src: url('../fonts/fff.otf?#'),  /* IE6–8 */
+       url('../fonts/fff.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
 }
+@font-face {
+  font-family: 'vvv';
+  src: url('../fonts/vvv.otf?#'),  /* IE6–8 */
+       url('../fonts/vvv.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family: 'www';
+  src: url('../fonts/www.otf?#'),  /* IE6–8 */
+       url('../fonts/www.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family: 'ccc';
+  src: url('../fonts/ccc.otf?#'),  /* IE6–8 */
+       url('../fonts/ccc.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+.ccc{
+    	font-family: ccc, Arial, Helvetica, sans-serif;
 
+}
+.www{
+        	font-family: wwww, Arial, Helvetica, sans-serif;
+}
+.vvv{
+           	font-family: vvv, Arial, Helvetica, sans-serif;
+}
+.fff{
+            	font-family:fff, Arial, Helvetica, sans-serif;
+}
 .Yekan {
 	font-family: Yekan, Arial, Helvetica, sans-serif;
 }

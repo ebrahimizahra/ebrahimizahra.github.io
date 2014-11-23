@@ -39,6 +39,7 @@ width:160px;
     font-family:Tahoma,Geneva,sans-serif;
     font-size:11px; 
     border-radius: 1px;
+    direction: rtl;
    
 background:-moz-linear-gradient(center top , rgb(000, 000, 000), rgb(000, 000, 000)) repeat scroll 0% 0% transparent;
 }
@@ -111,6 +112,8 @@ margin: auto;
     
 }
     
+body{
+   background:  rgb(250 , 250,250);}
 
 
 .nav_ul{
@@ -135,23 +138,17 @@ font-family: BMitraRegular,"Times New Roman",Times,serif;
     
     margin-: 100px;
 }
- .u{
- display:inline;
-float: right;
- list-style: none;
- padding: 5px 10px;
- border-radius: 5px;
-   
-}
+
 
 li a{
     text-decoration: none;
     color: rgb(83,94,106);
      
 }
-li:hover{
+                     
+ .nav_ul:hover{
     background: rgb(230,230,240);}
-
+    
 namttata
 
 .sidebarSection
@@ -166,13 +163,13 @@ namttata
     margin-bottom: -60px;
     padding-bottom:60px;
     margin-top: 60px;
-    height:1700px;
+    height:1660px;
 }
 .title{width:90%;margin-left:auto;margin-right:auto;text-align:justify;color: #fff;
        width: 100%;
     padding-top:300px;
    
-    font-family: BMitraRegular,"Times New Roman",Times,serif;
+    
     font-size: 22px;
     color: rgb(255, 255, 255);
     margin-top:10px;
@@ -180,9 +177,29 @@ namttata
     text-align: center;
     cursor: pointer;
 }
+.motahrak{
+    padding-bottom: 50px;
+}
+.news{
+    background-color: rgb(180, 36, 1);
+}
+.img_matalb{
+    padding-top:8px;
+    float: right;
+     padding-right:370px;
+}
+
+
+
 *
 
 
+
+
+#imgaddress{
+float:left;padding-top:15px;padding-left:20px;  }  
+.emil{
+   float:left;padding-top:15px;padding-left:0px;  padding-right:5px;} 
 
 #sectionvasat {
     height:1900px;
@@ -195,35 +212,12 @@ namttata
     margin-top: 30px;
     background-color: rgb(235, 235, 235);
 }
-
-.borderpic{
-    border: 1px solid #fff;
-    margin-top:200px;
-    margin-left: 20px;
-}
-.borderpic:hover{
-    border: 3px solid #F24F00;
-}
-*
-mainSidebar {
-    float: right;
-    width: 300px;
-    background-color: rgb(51, 51, 51);
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-    margin-top: 60px;
-}
-
-*
-
-
-.text_aside{   
-    padding-top: 5px;
-    padding-bottom: 5px;
+.text2_news{
     background-color: rgb(180, 36, 1);
 }
+
 #article1 {
-    
+    font-family: BMitraRegular,"Times New Roman",Times,serif,tahoma;
     height: 300px;
     position: relative;
     z-index: 10;
@@ -231,63 +225,101 @@ mainSidebar {
     background-image: url("/website_contents/themes/Farzan/assets/img/Pattern/pattern2.png");
     box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-direction: ltr;
+    direction: ltr;
     padding: 20px;
 }
 #topArticles.detailsView {
     padding: 20px;
 }
-.pic1{
-    padding-top:250px;
-    padding-left: 40px;
+
+.picvasat{
+    margin-left:50px;
+     margin-top:200px;
+    width: 300px;
+
+   
+    
+}
+ .picvasat img{
+    border: 2px solid #fff;
+    
+}
+ 
+.picvasat img:hover{
+   border:4px solid #F24F00;
+    
+}
+.curnta{
+    direction: rtl;
+  list-style-type: none;
     float: right;
-    padding-right:570px;
-}
-.pic2{
-     padding-top:300px;
-
-    float:left;
-    margin-left: auto;
+    font-size:14px;
+    padding-left:200px;
+    font-weight: bold;
+     color: #F24F00;
+           font-family: Koodak;
 
 }
+.curntb{
+    font-family: Koodak;
+     direction: rtl;
+  list-style-type: none;
+    float: right;
+    padding-top:50px;
+    text-align: -webkit-match-parent;
+    color: #666;
+    font-size: 14px;
+    
+    
 
+}
 
 .current1{
+font-family: Koodak;
+font-size: 14px;
     direction: rtl;
 display: list-item;
 text-align: -webkit-match-parent;
     float: right;
-    padding-top:190px;
+    padding-top:100px;
     padding-left: 5px;
-  font-family: BMitraRegular,"Times New Roman",Times,serif,tahoma;
+    list-style-type: none;
 }
 
-
 .current2{
+    font-size: 14px;
+    font-family: Koodak;
+     
 direction: rtl;
 display: list-item;
 text-align: -webkit-match-parent;
     float: right;
+   
 padding-top:10px;
   
-  font-family: BMitraRegular,"Times New Roman",Times,serif,tahoma;
+    list-style-type: none;
 }
 
 .current3{
+        font-family: Koodak;
+        font-size: 14px;
     direction: rtl;
     padding-top:10px;
     float: right;
-    font-family: BMitraRegular,"Times New Roman",Times,serif,tahoma;
+  
+    list-style-type: none;
 }
   .current1  :hover{
     color: #F24F00;}
 
  .current2  :hover{
-    color: #F24F00;}
+    color: #F24F00;
+      }
  .current3  :hover{
     color: #F24F00;}
 
-
+.curntb:hover{
+     color: #F24F00;}
 .matavasarsection{
     
  float: right;
@@ -298,7 +330,7 @@ color: #666;
 
 }
 #article12{
-    height:50px;
+    height:40px;
     position: relative;
     z-index: 10;
     background-color: rgb(255, 255, 255);
@@ -310,26 +342,31 @@ color: #666;
    float: left;
     margin-top: 50px;
    margin-right:750px;
-    width:750px; 
-    margin-left: 40px;
+    width:730px; 
+    margin-left:30px;
    padding-bottom: 50px;
     margin-top:5px;
      border: solid 5px #E5E5E5;
 
 }
 
-
+#picenak{
+    margin-top:-100px; direction:rtl;margin-right:400px;float:right;font-size:11px;color: #666; }
 
   #article12  img{
       float: right;
       width:130px;
-      
+      margin-top: -13px;
+      margin-right: -14px;
+     
      
       
   }
 #title {
-font-family: BMitraRegular,"Times New Roman",Times,serif,tahoma;
-font-size:18px;
+
+    font-weight: bold;
+
+font-size:15px;
 text-align: right;
 font-weight: bold;
 color: #F24F00;
@@ -338,30 +375,40 @@ color: #F24F00;
 }
 
 .barf{
+    color: #666;
+    height:5px;
+    width: 15px;
     display: inline;
   padding-left: 8px;
 padding-right: 8px;
-height: 20px;
 padding-top: 2px;
 background-color: #FFF;
 border: solid 1px #E5E5E5;  
 margin: auto;
     padding-bottom: 10px;
-}
-
-
-
-  
-
-
- .entry matvasatha{
     
-color: #666;
-font-size: 9px;
- float: left;
-padding-right: 900px;  
- 
+    
 }
+
+.barf:hover{
+    
+    background-color: #F24F00;
+    color: #fff;
+}
+
+.text1{
+    
+    direction: rtl;
+   float: left;
+    font-size: 14px;
+   
+   
+}
+.divtext1{
+   direction: rtl;
+}
+  
+    
 .sidebarSection mainEvents{
     
 width: 100%;
@@ -374,53 +421,76 @@ padding: 0px;
 
 
 .img_moharm{
-
-    width:100%;
+   width:300px;
+    float:right;
    height:150px;
-  
+    padding-right:20px; 
 }
 #aside2{
-    width:150px;
-   float: right;
-    background-color: rgb(0, 0, 0);
-    margin-bottom: -200px;
+    width:170px;
+ background-color:rgb(50,50,50);    margin-bottom: -200px;
     padding-bottom: 200px;
     margin-top: 60px;
-    height:950px;
+    height:1820px;
     padding-left: 150px;
     border:1px solid #acd; 
+    float:left;
+    margin-left:46px;
+    margin-top: -1870px;
+    
+}
+#boxghblfilm{
+  height:50px;
+    margin-top:30px;
+    width:299px ;
+    background-color:rgb(50,50,50);
 }
 
+    
+#boxghblgalary{
+  height:40px;margin-top:34px;width:300px ;background-color:rgb(50,50,50);}
+#imgmhrann{
+   margin-right:-100px;margin-top:-170px;
+        border-top: 1px solid rgb(70, 70, 70);
+}
+    
+#imgmehran{
+    margin-right:-100px;margin-top:-477px;border-top: 1px solid rgb(70, 70, 70);}
 
 #textyaddasht{
     padding-bottom:600px;
 }
+.picthree{
+    height:850px;
+    width:299px ;
+    background-color:rgb(50,50,50);
 
-.img_aside1{
-    margin-bottom: auto;
-    border: 1px solid rgb(200,200,200);
-    width:100%;
-    float:right;
-    color: #fff;
-    background-color: rgb(50,50,50);
-    padding-right: 150px;
-}
-
-.img_aside1 img{
-    width:60px;
-    float:right;
-    
 
 }
+#yadd{
+    align:right;
+    vertical-align: middle;
+}
+#khonom{
+   margin-right:-100px;margin-top:-479px;border-bottom: 1px solid rgb(36, 36, 36);}
 
 .aside_text{
-;
-font-size:20px;
+   
 direction: rtl;
     float: right;
 font-weight:normal;
-color: #fff;
+  
+   background: none repeat scroll 0% 0% #242424;
+    
+    width:100%;
+    height: 50px;
+    padding-right: 150px;
    
+}
+.yaddash{
+    padding: 10px;
+    direction: rtl;
+  
 }
 
 .tileaside{
@@ -441,27 +511,17 @@ color: #F24F00;
 #imgch{
     width: 100%;
 }
-
-
- .img_aside1:hover{
-    background-color:  rgb(0, 0, 0);
-}
-
-
-
 .threediv{
   background-color: rgb(50,50,50);
     float: left;
     
 }
-
 #img1{
     padding-top:10px;
     padding-bottom:700px;
     width: 200px;
     float: left;
-    width:100%;
-   
+    width:100%; 
 }
 
 
@@ -476,19 +536,22 @@ color: #F24F00;
     
 }
 
+#paadi{
+    padding-right: 50px;}
 
 
 #ulfoo{
     direction: rtl; 
      display:inline;
 float: right;
+  color: #868686;
  list-style: none;
- padding: 14px 10px;
- border-radius: 5px;
-    border-bottom: 1px solid rgb(70, 70,70);
+ padding: 14px ;
+    padding-right: 20px;
+border-bottom: 1px solid rgb(70, 70,70);
+    
 }
 #ulfoo li{
-   
 
 display: inline;
 text-align:right;
@@ -500,14 +563,14 @@ font-family: BMitraRegular,"Times New Roman",Times,serif;
  font-size:14px;
  cursor: pointer;
  border-left: 1px solid rgb(70, 70,70);
-   
+     
     padding-right: 4px;
 margin-right: 40px;
 }
 
 #ulfoo :hover{
     color: #F24F00;
-    background-color:rgb(60,60,60);
+  
 }
 
 
@@ -525,7 +588,7 @@ margin-right: 40px;
 .pa2{
     direction: ltr;
     float:left;
-    padding-top:10px;
+    padding-top:5px;
     padding-left:1200px;
     color: rgb(84,94,109);
     font-family: BMitraRegular,"Times New Roman",Times,serif;
@@ -536,8 +599,9 @@ margin-right: 40px;
     font-family: BMitraRegular,"Times New Roman",Times,serif;
      direction: ltr;
     float:left;
-    padding-top:20px;
+    padding-top:15px;
     padding-left:1150px;
+    padding-right: 15px;
     color: blue;
 }
 .par3:hover{
@@ -548,87 +612,127 @@ margin-right: 40px;
       
 }
 
+#a{
+    
+    padding-right:120px;
+   border-bottom: 1px solid rgb(70, 70, 70);
+     border-top: 1px solid rgb(70, 70, 70);}
 
+#k{
+    padding-right:120px;}
 
  .boxakhar ul{
     
  background-color:rgb(50,50,50);
     width:100%;
 }
+.boxaside2{
+        width:200px;
+        background-color:rgb(50,50,50);
+        height:80px;
+       margin-top:150x;
+        float: right;
+    padding-right:100px;
+    border-bottom: 1px solid rgb(36, 36, 36);
+     
+    }
+.txfilm{
+    height:50px; 
+    background: none repeat scroll 0% 0% #242424;
+    width:265px ;
+    float:left;
+    padding-left:35px;
+    margin-top:-450px;}
 
-stylefooter
 
+.textgoft{
+    height:50px; background: none repeat scroll 0% 0% #242424;
+            
+    width:265px ;
+    float:left;
+    padding-left:35px;
+    margin-top:-220px;}
 
-.foot{
-    background:#140;
-    
+.imgmoktaraside{
+ width:100px;
+ padding-left:230px;
+height:-100px;
+float: left;
+margin-top: -50px;
+margin-bottom: 500px;
+margin-right: 5px;
 }
-#topFooter
-{
+
+.matamokhtar{
+    font-size:11px;
+    color: #fff;
+     padding-left: 10px;
+    direction: rtl;
+    font-weight: bold;
+    font-family:Koodak;
    
-width: 100%;
-height: 200px;
-background-color: #3a3a3a;
-overflow: auto;
 }
+.imgbasijj{
+     width:50px;
+ padding-left:230px;
+height:-100px;
+float: left;
+margin-top: -30px;
+margin-bottom: 500px;
+margin-right: 5px
 }
- #topFooter .container {
-max-width: 1200px;
-width: 80%;
-margin: auto;
-margin-top: 30px;
-text-align: right;
-color: #868686;
+
+.made{
+     width:50px;
+ padding-left:220px;
+height:-100px;
+float: left;
+margin-top: -40px;
+margin-bottom: 500px;
+margin-right: 5px
 }
-#topFooter .container .section {
-float: right;
-margin-left: 20px;
-}
-#footerNav
-{
+h2{
+    color: #fff;
+    direction: rtl;
+    vertical-align: middle;
+    padding-right: 20px;
+    margin-top: -10px;
+    margin-bottom:-10px;
     
 }
-clearfix{
-    
-}
-#bottomFooter {
-width: 100%;
-height: 50px;
-background-color: #303030;
-}
-
-#topFooter .container nav#footerNav ul {
-padding: 0px;
-margin: 0px;
-list-style: none;
-}
-#wholeContentContainer {
-width: 100%;
-position: relative;
-}
-
-#topFooter .container nav#footerNav {
-border-bottom: solid 1px #484848;
-padding: 0px 0px 15px;
-display: inline-block;
-}
+.gallary{
+  height:50px;
+    width:265px ;
+    background-color:#26a8b7;
+    float:left;
+    padding-left:35px;
+    margin-top:-480px;}
 
 
-displayNone {
-display: none !important;
-}
+     .kadrvasat{
+       height:50px;
+         margin-top:-279px;
+         width:300px ;
+         background-color:rgb(50,50,50);
+         
+     }
 
-#topFooter .container #contactInfo ul li.addressInfo {
-background-image: url(/website_contents/themes/Farzan/assets/img/icon-address.png);
-background-repeat: no-repeat;
-background-position: top right;
-padding-right: 30px;
-}
 
-#topFooter .container #contactInfo ul li.phoneInfo {
-background-image: url(/website_contents/themes/Farzan/assets/img/icon-phone.png);
-background-repeat: no-repeat;
-background-position: top right;
-padding-right: 30px;
+#title:hover{
+ color: rgb(84,94,109);
 }
-<li id="menu-item-2840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2840 last-child"><a href="http://www.sourehcinema.ir/?page_id=2838">تماس با ما</a></li>
+#k:hover{
+    background: #202020;
+}
+#a:hover{
+    background: #202020;
+     border-bottom: 1px solid rgb(70, 70, 70);
+     border-top: 1px solid rgb(70, 70, 70);
+}
+#imgmehran:hover{
+    background: #202020;
+     border-top: 1px solid rgb(70, 70, 70);
+}
+#imgmhrann:hover{
+    background: #202020;
+}
